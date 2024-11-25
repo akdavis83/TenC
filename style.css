@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap");
+
+body {
+	margin: 0;
+	height: 100vh;
+	overflow: hidden;
+	background: radial-gradient(ellipse at 50% 50%, #fff 25%, #333 100%);
+	font-family: "Gideon Roman", Arial, Helvetica, serif;
+	background: url(https://cdn.josetxu.com/img/pattern-rockywall.jpg) repeat
+		center center;
+}
+
+.content {
+	width: 100vw;
+	height: 100vh;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	flex-direction: column;
+	max-width: 80vmin;
+}
+
+.disc {
+	width: 170vmin;
+	height: 100vmin;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	background: url(https://cdn.josetxu.com/img/pattern-rockywall.jpg) no-repeat
+		center center;
+	background-size: cover;
+	border-radius: 1vmin;
+	box-shadow: 0 0.5vmin 1vmin 0 #0008;
+	overflow: hidden;
+	position: relative;
+}
+
+.disc:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: url(https://cdn.josetxu.com/img/vitrubio.pn) no-repeat center -10px;
+	background-size: 102%;
+	opacity: 0.1;
+	transform: rotateY(180deg);
+}
+
+.disc:after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #33333322;
+}
+
+.title {
+	color: #131111;
+	font-size: 10.4vmin;
+	margin-top: 0vmin;
+	letter-spacing: -0.65vmin;
+}
+
+.subtitle {
+	color: red;
+	font-size: 4vmin;
+	margin-top: -2vmin;
+	margin-bottom: 3vmin;
+}
+
+.text {
+	width: 175vmin;
+	text-align: center;
+	font-size: 4.5vmin;
+	line-height: 7vmin;
+	color: #00000060;
+	text-shadow: 0px 1px 0px #ffffff50, 0px -1px 0px #5f5b54, 0 0 5px #fff,
+		-1px -1px 4px #d3d3d3;
+}
+
+.text:nth-child(3) {
+	word-spacing: 2.125vmin;
+}
+
+.text:nth-child(4) {
+	word-spacing: 0.55vmin;
+}
+
+.text:nth-child(5) {
+	word-spacing: 1.95vmin;
+	letter-spacing: 0.5vmin;
+}
+
+.text:nth-child(6) {
+	word-spacing: 1vmin;
+}
+
+.text:nth-child(7) {
+	word-spacing: 0.4vmin;
+}
+
+.text:nth-child(8) {
+	word-spacing: 2.4vmin;
+}
+
+.text:nth-child(9) {
+	word-spacing: 1.3vmin;
+	letter-spacing: 0.35vmin;
+}
+
+.text:nth-child(10) {
+	word-spacing: 2.5vmin;
+	letter-spacing: 0.485vmin;
+}
+
+.text:nth-child(11) {
+	word-spacing: 2.2vmin;
+}
+
+.text span {
+	font-size: 3vmin;
+	font-weight: 500;
+}
